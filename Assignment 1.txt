@@ -1,0 +1,52 @@
+Q.1 Explain JDK, JRE and JVM?
+
+JVM : It stands for Java Virtual Machine. It is an abstract machine. It is a specification
+	that provides a runtime environment in which java bytecode can be executed.
+
+JRE : It stands for Java Runtime Envirnoment. JRE refers to the runtime environment.
+	JRE refers to the runtime environment in which java bytecode can be executed.
+	IT is an implementation of JVM which physically exist.
+
+JDK : It stands for java development kit. It is the necessary tool to compile. It contains JRE and Development tool.
+
+Q.2) Why Java is platform independent?
+
+Java is called platform independent because of its byte code which can run on any system.
+
+Q.3) List down all primitive data types in java in order of their capacity.
+
+	1. byte : 1 byte
+	2. short : 2 bytes
+	3. int : 4 bytes
+	4. long : 4 bytes
+	5. float : 4 bytes
+	6. double : 8 bytes
+	7. boolean : 1 byte
+	8. char : 2 bytes
+
+Q.4) Which of the following are valid variable names?
+a. _$_$_$ b. my$Var
+c. 1_emp_no d. good@str
+e. $ 9 f. V$A$V
+
+Q.5) State true or false. Rewrite statement correctly if false.
+
+a. Java program compiles and interprets each time you execute it.  
+	True
+
+b. Java is platform independent but JVM is not. 
+	False, Java and JVM is platform independent.
+
+Q.6) What will be output of following code?
+public class Test {
+public static void main(String[] args) {
+int a = 5 ;
+int b =20 ;
+System.out.println(a++ + --b + --b + b/a + --a * b++);
+System.out.println("a= " + a + " b= " + b);
+}
+}
+
+	135
+	a= 5 b= 19
+
