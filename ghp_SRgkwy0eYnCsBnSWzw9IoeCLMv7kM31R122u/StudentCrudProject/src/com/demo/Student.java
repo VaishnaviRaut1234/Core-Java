@@ -10,6 +10,8 @@ public class Student  implements Operation
 	int count = 0;
 	int id = 0;
 	int flag = 0;
+	
+	
 	ArrayList<StudentDetails> al = new ArrayList<>();
 	ArrayList<Course> a1 = new ArrayList<>();
 	StudentDetails b = null;
@@ -26,15 +28,6 @@ public class Student  implements Operation
 		System.out.println("Enter Student's Age...");
 		int age = sc.nextInt();
 		
-		/*System.out.println("Enter Course id");
-		int cid = sc.nextInt();
-		
-		System.out.println("Enter course name");
-		String cname = sc.next();
-		
-		System.out.println("Enter course fees");
-		float fees = sc.nextFloat();
-		a = new Course(cid,cname,fees);*/
 		b = new StudentDetails(id, name, age);
 		
 		count++;

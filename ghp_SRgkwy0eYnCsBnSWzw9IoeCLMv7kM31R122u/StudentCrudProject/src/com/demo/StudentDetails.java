@@ -16,7 +16,7 @@ public class StudentDetails
 		
 	}
 	
-	/*public void getStudentDetails(int sId,String sName, int age, Course crs)
+	public void getStudentDetails(int sId,String sName, int age, Course crs)
 	{
 		this.sId = sId;
 		this.sName = sName;
@@ -28,7 +28,7 @@ public class StudentDetails
 	{
 		System.out.println("sId=" + sId + ", sName=" + sName + ", age=" + age);
 		this.crs.showCourse();
-	}*/
+	}
 
 	public int getSId() {
 		return sId;
@@ -53,17 +53,17 @@ public class StudentDetails
 	public void setAge(int age) {
 		this.age = age;
 	}
-	/*public void setCourse(Course c)
+	public void setCourse(Course c)
 	{
 		crs=c;
-	}*/
-	/*public Course getC() {
-		return c;
+	}
+	public Course getC() {
+		return crs;
 	}
 
 	public void setC(Course c) {
-		this.c = c;
-	}*/
+		this.crs = c;
+	}
 
 	@Override
 	public String toString() {

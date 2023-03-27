@@ -40,10 +40,10 @@ public class Course
 		this.fees = fees;
 	}
 	
-	/*public void showCourse()
+	public void showCourse()
 	{
 		System.out.println("Id=" + cId + ", Name=" + cName + ", fees=" + fees);
-	}*/
+	}
 	@Override
 	public String toString() {
 		return "Id=" + cId + ", Name=" + cName + ", fees=" + fees;
